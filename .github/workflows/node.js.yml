@@ -16,7 +16,7 @@ jobs:
           node-version: '16.x'
       - name: Run npm install
         run: npm install
-      - run: npm build
+      - run: npm run build
 
       - name: Release to PROD Branch
         uses: casperdcl/push-dir@v1
