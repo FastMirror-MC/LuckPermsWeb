@@ -125,7 +125,7 @@
             <font-awesome icon="code-branch" fixed-width />
             <a href="https://github.com/LuckPerms/LuckPermsWeb" target="_blank">LuckPermsWeb</a>
             @
-            <a :href="'https://github.com/LuckPerms/LuckPermsWeb/commit/' + commitHash" target="_blank">{{ commitHash }}</a>
+            <a :href="'https://github.com/FastMirror-MC/LuckPermsWeb/commit/' + commitHash" target="_blank">{{ commitHash }}</a>
           </li>
           <li>
             <router-link v-if="!config.selfHosted" to="/wiki/Credits" target="_blank">
