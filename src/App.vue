@@ -10,7 +10,7 @@
           <div v-if="!config.selfHosted && !isSponsorRoute" class="nav-message">
             <router-link to="/sponsor">
               <hr />
-              <img src="@/assets/wuyuidc.png" alt="Bisect Hosting">
+              <img src="@/assets/wuyuidc.svg" alt="Bisect Hosting">
               <span>特别赞助！<span>
             </router-link>
           </div>
