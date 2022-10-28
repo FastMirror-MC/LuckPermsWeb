@@ -14,9 +14,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - name: Run yarn install
-        run: yarn
-      - run: yarn build
+      - name: Run npm install
+        run: npm install
+      - run: npm build
 
       - name: Release to PROD Branch
         uses: casperdcl/push-dir@v1
