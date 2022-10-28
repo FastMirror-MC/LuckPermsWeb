@@ -11,7 +11,7 @@
             <router-link to="/sponsor">
               <hr />
               <img src="@/assets/wuyuidc.png" alt="Bisect Hosting">
-              <span v-html="$t('sponsor')" />
+              <span>特别赞助！<span>
             </router-link>
           </div>
         </transition>
