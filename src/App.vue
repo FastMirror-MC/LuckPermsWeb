@@ -128,6 +128,10 @@
             <a :href="'https://github.com/FastMirror-MC/LuckPermsWeb/commit/' + commitHash" target="_blank">{{ commitHash }}</a>
           </li>
           <li>
+          <a href="https://www.fastmirror.net/" target="_blank">无极镜像</a>
+          <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021028678号-4</a>
+          </li>
+          <li>
             <router-link v-if="!config.selfHosted" to="/wiki/Credits" target="_blank">
               Copyright © 2017-{{ new Date().getFullYear().toString() }} LuckPerms contributors
             </router-link>
