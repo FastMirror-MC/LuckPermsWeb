@@ -132,10 +132,7 @@
           <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2021028678号-4</a>
           </li>
           <li>
-            <router-link v-if="!config.selfHosted" to="/wiki/Credits" target="_blank">
-              Copyright © 2017-{{ new Date().getFullYear().toString() }} LuckPerms contributors
-            </router-link>
-            <a v-else href="https://luckperms.net/wiki/Credits" target="_blank">
+            <a href="https://luckperms.net/wiki/Credits" target="_blank">
               Copyright © 2017-{{ new Date().getFullYear().toString() }} LuckPerms contributors
             </a>
           </li>
