@@ -88,13 +88,13 @@
             </span>
             <small>{{ $t('home.discord', { count: discordUserCount }) }}</small>
           </a>
-          <router-link to="/sponsor" class="resource">
+          <a href="https://www.mcbbs.net/thread-1366093-1-1.html" class="resource">
             <span>
               <font-awesome icon="server" />
-              {{ $t('home.partner.title') }}
+              服务器租用
             </span>
-            <small>{{ $t('home.partner.description') }}</small>
-          </router-link>
+            <small>由物语云计算提供专业稳定的高性能服务器</small>
+          </a>
           <a href="https://patreon.com/luckdev" class="resource">
             <span>
               <font-awesome :icon="['fab', 'patreon']" />
