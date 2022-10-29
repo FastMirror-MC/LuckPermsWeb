@@ -8,11 +8,11 @@
         </router-link>
         <transition name="fade">
           <div v-if="!config.selfHosted && !isSponsorRoute" class="nav-message">
-            <router-link to="/sponsor">
+            <a href="https://www.mcbbs.net/thread-1366093-1-1.html">
               <hr />
               <img src="@/assets/wuyuidc.svg" alt="Bisect Hosting">
               <span>特别赞助！<span>
-            </router-link>
+            </a>
           </div>
         </transition>
       </div>
