@@ -8,7 +8,7 @@
         </router-link>
         <transition name="fade">
           <div v-if="!config.selfHosted && !isSponsorRoute" class="nav-message">
-            <a href="https://www.mcbbs.net/thread-1366093-1-1.html">
+            <a href="https://www.fastmirror.net/sponsor">
               <hr />
               <img src="@/assets/wuyuidc.svg" alt="Bisect Hosting">
               <span>特别赞助！<span>
