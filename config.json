@@ -2,6 +2,6 @@
   "bytebin_url": "https://bytebin-lp.fastmirror.net/",
   "bytesocks_host": "usersockets.luckperms.net",
   "base": "/",
-  "selfHosted": false,
+  "selfHosted": true,
   "api_url": "https://metadata.luckperms.net"
 }
